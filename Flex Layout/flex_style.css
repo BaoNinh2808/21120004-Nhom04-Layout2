@@ -1,0 +1,52 @@
+body{
+    background-color: lightgrey;
+}
+
+.container{
+    margin: 2rem 4rem;
+}
+
+.header{
+    background-color: gray;
+    padding: 0.5rem;
+}
+
+.footer{
+    background-color: gray;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.wrapper{
+    margin: 0.5rem 0 0.75rem 0;
+    display: flex;
+    height: 80vh;
+}
+
+.sidebar{
+    flex-basis: 30%;
+}
+
+.content{
+    flex-basis: 70%;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+}
+
+.banner{
+    flex-basis: 20%;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-area{
+    flex-basis: 80%;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}

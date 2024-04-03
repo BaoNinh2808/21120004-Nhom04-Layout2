@@ -15,7 +15,6 @@ body{
     background-color: gray;
     padding: 0.5rem;
     text-align: center;
-    clear: both;
 }
 
 .wrapper{
@@ -27,7 +26,7 @@ body{
 
 .content{
     display: grid;
-    grid-template-rows: 15fr 85fr;
+    grid-template-rows: 20fr 80fr;
     row-gap: 1rem;
     height: 100%;
 }
@@ -35,7 +34,7 @@ body{
 .banner{
     background-color: gray;
     text-align: center;
-    padding-top: calc(0.15*(80vh - 1rem)*0.5 - 1rem - 0.5rem); /* height = 15% * (80vh - 1rem)    (1rem là row gap)
+    padding-top: calc(0.2*(80vh - 1rem)*0.5 - 1rem - 0.5rem); /* height = 20% * (80vh - 1rem)    (1rem là row gap)
                                                                   *0.5 để lấy 1 nửa chiều cao
                                                                   -1rem padding top mặc định
                                                                   -0.5rem chiều cao chữ
@@ -45,5 +44,5 @@ body{
 .body-area{
     background-color: gray;
     text-align: center;
-    padding-top: calc(0.85*(80vh - 1rem)*0.5 - 1rem - 0.5rem);
+    padding-top: calc(0.8*(80vh - 1rem)*0.5 - 1rem - 0.5rem);
 }
